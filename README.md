@@ -16,6 +16,7 @@ WordPress Info:
 - (enter plugins used)
 
 Links to other important documents:
-- Development - https://github.com/cp3402-students/cp3402-2022-1-site-team09/blob/19d6e4fbd5567a2cb04c0c260dc9a92dfa0bb7fd/deployment.md
-- Theme - https://github.com/cp3402-students/cp3402-2022-1-site-team09/blob/main/Theme.md
-- Site - https://github.com/cp3402-students/cp3402-2022-1-site-team09/blob/19d6e4fbd5567a2cb04c0c260dc9a92dfa0bb7fd/Site.md
+- [Development](https://github.com/cp3402-students/cp3402-2022-1-site-team09/blob/19d6e4fbd5567a2cb04c0c260dc9a92dfa0bb7fd/deployment.md)
+- [Theme](https://github.com/cp3402-students/cp3402-2022-1-site-team09/blob/main/Theme.md)
+- [Site](https://github.com/cp3402-students/cp3402-2022-1-site-team09/blob/19d6e4fbd5567a2cb04c0c260dc9a92dfa0bb7fd/Site.md)
+
