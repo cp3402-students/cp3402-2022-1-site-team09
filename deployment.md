@@ -6,8 +6,6 @@ Setting up the local enviroment:
 4. After the site is set up, export the content from the live site via Wordpress's exporting tool.
 5. Log into the backend of WordPress, then import all the files using WordPress's import funciton.
 
-
-
 Commiting theme to GitHub:
 
 1. Log into the backend of WordPress using command line.
@@ -16,7 +14,9 @@ Commiting theme to GitHub:
 4. Along with own commit messages, use "-m "commit message"
 5. To push to GitHub, use git push origin master.
 
+Merging with staging site:
 
+1. For the desired branch you wish to merge into, click on the a2 repository go to go   
 
 
 Yet to include:
