@@ -1,12 +1,12 @@
 Assignment 2 - Cp3402 - 2022 - team09
 
-Authors
+Authors:
 - Nicholas West
 - Shadman Ahmed
 - Keegan Monti
 - Benjamin Nicholson
 
-Server
+Server:
 - Staging: (enter address here)
 - Live: (enter address here)
 
