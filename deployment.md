@@ -16,13 +16,16 @@ Commiting theme to GitHub:
 
 Merging with staging site:
 
-1. For the desired branch you wish to merge into, click on the a2 repository go to go   
+1. For the desired branch you wish to merge into, click on the a2 repository then press branches->new pull request.
+2. To merge from: local to staging deployment, merge from compare:master to base:staging.
+3. From staging
+4. 
+5.    
 
 
 Yet to include:
 
-develop theme updates locally, then test and deploy them to your staging and live sites. This should include aspects such as project management, version control, testing and automation
-make sure you talk about this in the deployment md file
+
 how we use our staging site to test before pushing to the main site
 include things such as how we manage everything eg moving files across and back ups as well as version control
 
