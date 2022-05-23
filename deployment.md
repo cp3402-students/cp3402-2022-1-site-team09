@@ -18,7 +18,7 @@ Merging with staging site:
 
 1. For the desired branch you wish to merge into, click on the a2 repository then press branches->new pull request.
 2. To merge from: local to staging deployment, merge from compare:master to base:staging.
-3. From staging
+3. Or merge from staging development to local, compare
 4. 
 5.    
 
