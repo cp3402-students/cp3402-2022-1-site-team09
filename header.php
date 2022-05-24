@@ -56,10 +56,6 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
-			<form action="search.php">
-				<input type="text" placeholder="Search.." name="search">
-				<button type="submit">Search</button>
-			</form>
 			</div><!-- .site-branding -->
 		<div class="spacing">
 			<p class="spacer">

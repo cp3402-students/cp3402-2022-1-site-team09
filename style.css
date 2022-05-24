@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
 Description: Description
-Version: 1.0.3
+Version: 1.0.4
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -94,6 +94,7 @@ html {
 
 .site-branding {
 	width: 1344px;
+	height: 150px;
 	position: relative;
 	margin: 0 auto;
 }
@@ -721,6 +722,101 @@ textarea {
 	display: flex;
 }
 
+.footer-container {
+	width: 1344px;
+	height: 150px;
+  	position: relative;
+  	margin: 0 auto;
+}
+
+.u-icon-1 {
+	position: absolute;
+	height: 32px;
+	min-height: 16px;
+	width: 74px;
+	min-width: 42px;
+	color: rgb(59, 89, 152) !important;
+	margin-top: 13px;
+}
+
+.u-icon-2 {
+	position: absolute;
+	height: 32px;
+	min-height: 16px;
+	width: 74px;
+	min-width: 42px;
+	margin-top: 14px;
+	margin-left: 37px;
+  	color: rgb(219, 83, 75) !important;
+}
+
+.u-social-icon a {
+  height: 100%;
+  display: inline-block;
+  flex: 1;
+}
+
+.u-social-url {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  border: 0 none transparent;
+  outline-width: 0;
+  background-color: transparent;
+  margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  -webkit-text-decoration-skip: objects;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.u-svg-content {
+  width: 0;
+  height: 0;
+}
+
+.u-icon {
+ 	display: flex;
+	line-height: 0;
+  	border-width: 0px;
+}
+
+.u-svg-link {
+  height: 100%;
+  fill: currentColor;
+}
+
+.menu {
+	width: 834px;
+	height: 18px;
+	color: #ffffff;
+	margin-left: 53px;
+	display: flex;
+}
+
+.menu a {
+	color: #ffffff;
+}
+
+.menu .sub-menu a {
+	color: #000;
+}
+
+.site-footer {
+	background-color: #333333;
+}
+
+.entry-footer {
+	display: none;
+}
+
 .menu-menu-1-container {
 	display: flex;;
 	text-align: center;
@@ -731,7 +827,13 @@ textarea {
 	letter-spacing: 0px;
 	position: relative;
 	display: flex;
-	margin: -80px auto 0 94px;
+	float: right;
+	margin-top: 40px;
+}
+
+.footer-container .main-navigation {
+	float: right;
+	margin-bottom: -46px;
 }
 
 .main-navigation ul {
@@ -817,6 +919,13 @@ textarea {
   	text-align: left;
 }
 
+.u-text-1 {
+	position: absolute;
+  	margin-top: 105px;
+	color: #ffffff;
+	float: left;
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -873,6 +982,18 @@ textarea {
 .post,
 .page {
 	margin: 0 0 1.5em;
+}
+
+page {
+	display: flex;
+}
+
+footer {
+	display: flex;
+}
+
+header {
+	display: flex;
 }
 
 .updated:not(.published) {
