@@ -17,12 +17,14 @@ Commiting theme to GitHub:
 Merging with staging site:
 
 1. For the desired branch you wish to merge into, click on the a2 repository then press branches->new pull request.
-2. To merge from: local to staging deployment, merge from compare:master to base:staging.
-3. Or merge from staging development to local, compare
+2. To ensure merging is executed correctly.... 
+3. 
 4. 
-5.    
+5. 
+6.    
 
 
+Needs to complete
 Yet to include:
 
 
