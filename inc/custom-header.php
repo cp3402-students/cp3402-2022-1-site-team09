@@ -8,39 +8,39 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package townsvillejazzclubtwo
+ * @package townsvillejazzclub
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses townsvillejazzclubtwo_header_style()
+ * @uses townsvillejazzclub_header_style()
  */
-function townsvillejazzclubtwo_custom_header_setup() {
+function townsvillejazzclub_custom_header_setup() {
 	add_theme_support(
 		'custom-header',
 		apply_filters(
-			'townsvillejazzclubtwo_custom_header_args',
+			'townsvillejazzclub_custom_header_args',
 			array(
 				'default-image'      => '',
 				'default-text-color' => '000000',
 				'width'              => 1000,
 				'height'             => 250,
 				'flex-height'        => true,
-				'wp-head-callback'   => 'townsvillejazzclubtwo_header_style',
+				'wp-head-callback'   => 'townsvillejazzclub_header_style',
 			)
 		)
 	);
 }
-add_action( 'after_setup_theme', 'townsvillejazzclubtwo_custom_header_setup' );
+add_action( 'after_setup_theme', 'townsvillejazzclub_custom_header_setup' );
 
-if ( ! function_exists( 'townsvillejazzclubtwo_header_style' ) ) :
+if ( ! function_exists( 'townsvillejazzclub_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see townsvillejazzclubtwo_custom_header_setup().
+	 * @see townsvillejazzclub_custom_header_setup().
 	 */
-	function townsvillejazzclubtwo_header_style() {
+	function townsvillejazzclub_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*

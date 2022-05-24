@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package townsvillejazzclubtwo
+ * @package townsvillejazzclub
  */
 
 ?>
@@ -16,20 +16,20 @@
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php
-			townsvillejazzclubtwo_posted_on();
-			townsvillejazzclubtwo_posted_by();
+			townsvillejazzclub_posted_on();
+			townsvillejazzclub_posted_by();
 			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php townsvillejazzclubtwo_post_thumbnail(); ?>
+	<?php townsvillejazzclub_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 
 	<footer class="entry-footer">
-		<?php townsvillejazzclubtwo_entry_footer(); ?>
+		<?php townsvillejazzclub_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package townsvillejazzclubtwo
+ * @package townsvillejazzclub
  */
 
 get_header();
@@ -14,11 +14,11 @@ get_header();
 
 		<section class="error-404 not-found">
 			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'townsvillejazzclubtwo' ); ?></h1>
+				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'townsvillejazzclub' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'townsvillejazzclubtwo' ); ?></p>
+				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'townsvillejazzclub' ); ?></p>
 
 					<?php
 					get_search_form();
@@ -27,7 +27,7 @@ get_header();
 					?>
 
 					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'townsvillejazzclubtwo' ); ?></h2>
+						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'townsvillejazzclub' ); ?></h2>
 						<ul>
 							<?php
 							wp_list_categories(
@@ -45,8 +45,8 @@ get_header();
 
 					<?php
 					/* translators: %1$s: smiley */
-					$townsvillejazzclubtwo_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'townsvillejazzclubtwo' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$townsvillejazzclubtwo_archive_content" );
+					$townsvillejazzclub_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'townsvillejazzclub' ), convert_smilies( ':)' ) ) . '</p>';
+					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$townsvillejazzclub_archive_content" );
 
 					the_widget( 'WP_Widget_Tag_Cloud' );
 					?>

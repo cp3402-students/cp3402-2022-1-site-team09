@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package townsvillejazzclubtwo
+ * @package townsvillejazzclub
  */
 
 ?>
@@ -22,14 +22,14 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				townsvillejazzclubtwo_posted_on();
-				townsvillejazzclubtwo_posted_by();
+				townsvillejazzclub_posted_on();
+				townsvillejazzclub_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php townsvillejazzclubtwo_post_thumbnail(); ?>
+	<?php townsvillejazzclub_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -37,7 +37,7 @@
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'townsvillejazzclubtwo' ),
+					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'townsvillejazzclub' ),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -50,7 +50,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'townsvillejazzclubtwo' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'townsvillejazzclub' ),
 				'after'  => '</div>',
 			)
 		);
@@ -58,6 +58,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php townsvillejazzclubtwo_entry_footer(); ?>
+		<?php townsvillejazzclub_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

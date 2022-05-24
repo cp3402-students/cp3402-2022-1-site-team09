@@ -7,7 +7,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package townsvillejazzclubtwo
+ * @package townsvillejazzclub
  */
 
 /*
@@ -28,18 +28,18 @@ if ( post_password_required() ) {
 		?>
 		<h2 class="comments-title">
 			<?php
-			$townsvillejazzclubtwo_comment_count = get_comments_number();
-			if ( '1' === $townsvillejazzclubtwo_comment_count ) {
+			$townsvillejazzclub_comment_count = get_comments_number();
+			if ( '1' === $townsvillejazzclub_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'townsvillejazzclubtwo' ),
+					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'townsvillejazzclub' ),
 					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
 			} else {
 				printf( 
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $townsvillejazzclubtwo_comment_count, 'comments title', 'townsvillejazzclubtwo' ) ),
-					number_format_i18n( $townsvillejazzclubtwo_comment_count ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $townsvillejazzclub_comment_count, 'comments title', 'townsvillejazzclub' ) ),
+					number_format_i18n( $townsvillejazzclub_comment_count ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
 			}
@@ -65,7 +65,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() ) :
 			?>
-			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'townsvillejazzclubtwo' ); ?></p>
+			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'townsvillejazzclub' ); ?></p>
 			<?php
 		endif;
 
