@@ -7,8 +7,8 @@ Authors:
 - Benjamin Nicholson
 
 Server:
-- Staging: (enter address here)
-- Live: (enter address here)
+- Staging: (https://townsvillejazzclubteam9.cloudaccess.host/)
+- Live: (https://34.129.203.197/)
 
 WordPress Info:
 - Base Theme: underscore
